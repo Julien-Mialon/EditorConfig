@@ -197,7 +197,6 @@ dotnet_naming_rule.property_name.severity = error
 
 # define variable in method
 dotnet_naming_symbols.const_variable.applicable_kinds = local
-dotnet_naming_symbols.const_variable.applicable_accessibilities = *
 dotnet_naming_symbols.const_variable.required_modifiers = const
 
 dotnet_naming_symbols.variable.applicable_kinds = parameter,local
