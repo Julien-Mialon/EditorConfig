@@ -1,0 +1,2 @@
+# EditorConfig
+Editor config storage
