@@ -1,6 +1,17 @@
 root = true
 
-[*.{csproj,props,targets,nuspec,sh,ps1,cmd,bat,cs,csx,cake}]
+[*.{cmd,bat}]
+trim_trailing_whitespace = true
+indent_style = tab
+insert_final_newline = false
+
+[*.{csproj,props,targets,nuspec,sh,ps1,cs,csx,cake}]
+trim_trailing_whitespace = true
+indent_style = tab
+insert_final_newline = false
+charset = utf-8
+
+[*.{cs,csx,cake}]
 trim_trailing_whitespace = true
 indent_style = tab
 insert_final_newline = false
